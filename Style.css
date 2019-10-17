@@ -1,0 +1,65 @@
+body{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(49, 74, 89, 0.45) 0%, rgba(49, 74, 89, 0.45) 12.5%,rgba(122, 86, 72, 0.45) 12.5%, rgba(122, 86, 72, 0.45) 25%,rgba(170, 94, 60, 0.45) 25%, rgba(170, 94, 60, 0.45) 37.5%,rgba(219, 102, 49, 0.45) 37.5%, rgba(219, 102, 49, 0.45) 50%,rgba(146, 90, 66, 0.45) 50%, rgba(146, 90, 66, 0.45) 62.5%,rgba(98, 82, 78, 0.45) 62.5%, rgba(98, 82, 78, 0.45) 75%,rgba(195, 98, 55, 0.45) 75%, rgba(195, 98, 55, 0.45) 87.5%,rgba(73, 78, 83, 0.45) 87.5%, rgba(73, 78, 83, 0.45) 100%),linear-gradient(135deg, rgb(117, 6, 152),rgb(110, 34, 251));
+  background-repeat: no-repeat;
+
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  height: 99vh;
+  color: #fff;
+  padding-top: 7vh;
+}
+
+h1{
+  text-align: center;
+}
+
+form{
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+
+  background: rgba(49, 74, 89, 0.75);
+  color: #ddd;
+  border: none;
+  border-radius: 7px;
+  padding: 5vh 30px;
+}
+label{
+  font-size: 1.4em;
+}
+input,textarea{
+  display: block;
+  min-width: 98%;    
+  max-width: 100%;
+
+  padding: 7px 1%;
+  margin: 10px auto;
+  
+  border: none;
+  border-radius: 3px;
+}
+small{
+  margin-bottom: 5vh;
+  display: block;
+}
+#float-right{
+  text-align: right;
+}
+button{
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.3em;
+  transition: 0.2s;
+  cursor: pointer;
+}
+button:hover{
+  background: #6A1B9A;
+  color: #fff;
+}
